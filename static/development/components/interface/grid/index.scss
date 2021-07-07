@@ -1,0 +1,107 @@
+main {
+    position: relative;
+}
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently */
+}
+.container {
+    padding: 0px 5%;
+    width: 100%;
+}
+.absolute_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//  тут шрифти 400 ==================>
+.sub_title {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: 400;
+    
+    &_0 {
+        font-size: 12px;
+    }
+    &_1 {
+        font-size: 14px;
+    }
+}
+
+//  тут шрифти 500 ==================>
+.middle_title {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: 500;
+    
+    &_0 {
+        font-size: 12px;
+    }
+    &_1 {
+        font-size: 14px;
+    }
+}
+
+
+//  тут шрифти 600 ==================>
+.standart_title {
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    
+    &_0 {
+        font-size: 12px;
+    }
+    &_1 {
+        font-size: 14px;
+    }
+    &_2 {
+        font-size: 16px;
+    }
+    &_3 {
+        font-size: 18px;
+    }
+}
+//  тут шрифти 700 ==================>
+.bold_title {
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    
+    
+    &_0 {
+        font-size: 12px;
+    }
+   
+    
+}
+
+
+.color {
+    &_red {
+        color: #BC1600;
+    }
+    &_black {
+        color: #15191B;
+        &_2 {
+            color: #212129;
+        }
+    }
+    &_white {
+        color: #fff;
+    }
+    &_gray {
+        color: #686874;
+    }
+    
+}
+
+

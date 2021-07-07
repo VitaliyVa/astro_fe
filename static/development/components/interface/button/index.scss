@@ -1,0 +1,40 @@
+
+
+
+
+.btn_standart {
+        transition: all .2s;
+        min-width: 170px;
+        display: block;
+        cursor: pointer;
+        width: -moz-fit-content;
+        width: fit-content;
+        letter-spacing: normal;
+        border-radius: 4px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border: none;
+        outline: none;
+        padding: 14.5px 10px;
+
+        &_orange {
+            background: #F28820;
+            border: solid 1px transparent !important;
+            &:hover {
+                border: solid 1px rgb(205, 115, 26) !important;
+                background: rgb(205, 115, 26);
+            }
+        }
+        &_white {
+            background: #fff;
+            border: solid 1px #F28820 !important;
+            &:hover {
+                border: solid 1px #F28820 !important;
+                background: #F28820;
+                color: #fff;
+            }
+        }
+       
+}
+

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Видавництво «Астролябія»</title>
+  <link href="/static/source/fonts/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="/static/source/lib/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/static/source/pages/index/index.css">
+</head>
+
+<body id="top">
+  <nav>
+    <div class="navbar container">
+      <div class="logo img-box">
+        <a class="" href="#top">
+          <img src="/static/source/img/img/astrolabium-logo.svg" alt="Приклад логотипу">
+        </a>
+      </div>
+      <div class="icons">
+        <span class="navbar_search__block">
+          <span class="material-icons">search</span>
+          <input type="search" class="navbar_search_input" placeholder="Книга, автор, ISBN, код товару…">
+        </span>
+        <a class="mobile-invisible" href="">
+          <span class="material-icons">person_add</span>
+          <!-- <span class="tooltip">Реєстрація</span> -->
+        </a>
+        <a href="">
+          <span class="material-icons">login</span>
+          <!-- <span class="tooltip">Вхід</span> -->
+        </a>
+        <div class="lang">
+          <a class="active" href="">
+            <span class="ua"></span>UA</span>
+          </a>
+          <a class="" href="">
+            <span class="en">EN</span>
+          </a>
+        </div>
+        <div class="currency">
+          <a class="active" href="">
+            <span class="">&#8372;</span>
+          </a>
+          <a class="" href="">
+            <span class="">&euro;</span>
+          </a>
+          <a class="" href="">
+            <span class="">&#36;</span>
+          </a>
+        </div>
+        <a class="cart" href="">
+          <span class="material-icons">shopping_cart</span>
+        </a>
+      </div>
+      <div class="navigation">
+        <button class="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul>
+          <li class="trail"><a class="nav-link" href="#">Видавництво Астролябія</a></li>
+          <li class="trail"><a class="nav-link" href="#">Книги</a></li>
+          <li><a class="nav-link" href="#">Автори</a></li>
+          <li><a class="nav-link" href="#">Клуб</a></li>
+          <li><a class="nav-link" href="#">Блог</a></li>
+          <li><a class="nav-link" href="#">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container-fluid">
+      <div id="sw-01" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="video-wrapper">
+              <video src="/static/source/video/mannerheim.mp4" autoplay="true" loop="true" muted="true">
+              </video>
+            </div>
+            <div class="video-overlay"></div>
+            <div class="container">
+              <div class="row align-bottom">
+                <div class="col">
+                  <div class="img-box cover">
+                    <img src="/static/source/img/covers/mannerheim.jpg" alt="">
+                    <div class="price">
+                      <div class="old-price">460<span class="currency">&nbsp;грн</span></div>
+                      <div class="new-price">369<span class="currency">&nbsp;грн</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="txt-box col">
+                  <h2>
+                    Двохтомник мемуарів Карла&nbsp;Ґустава Маннергейма за&nbsp;зниженою&nbsp;ціною.
+                  </h2>
+                  <p>
+                    Вартість двох книг, разом із&nbsp;клубною знижкою&nbsp;-10%
+                    становитиме&nbsp;<strong>369&nbsp;грн.</strong><br>Придбати книги можна&nbsp;<a href="">тут</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="video-wrapper">
+              <video src="/static/source/video/mannerheim.mp4" autoplay="true" loop="true" muted="true">
+              </video>
+            </div>
+            <div class="video-overlay"></div>
+            <div class="container">
+              <div class="row align-bottom">
+                <div class="col">
+                  <div class="img-box cover">
+                    <img src="/static/source/img/covers/tolkin.jpg" alt="">
+                    <div class="price">
+                      <div class="old-price">460<span class="currency">&nbsp;грн</span></div>
+                      <div class="new-price">369<span class="currency">&nbsp;грн</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="txt-box col">
+                  <h2>
+                    Анонс акції з назвою книги або комплекту за&nbsp;зниженою&nbsp;ціною.
+                  </h2>
+                  <p>
+                    Короткий текст&nbsp;— пояснення суті акції або можливостей купівлі за клубною
+                    знижкою&nbsp;-10%</strong><br>Придбати книги можна&nbsp;<a href="">тут</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </header>
+  <section id="new">
+    <div id="sw-02" class="swiper-container slider">
+      <h2 class="title center abr"><a href="">Нові книги</a></h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/mannerheim_01.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Мемуари. Том 1
+              </h3>
+              <h3 class="book-author">
+                Карл Ґустав Маннергейм
+              </h3>
+            </div>
+            <!-- <span class="price">369&nbsp;грн</span>
+                            <a href="" class="to-buy">
+                                <span class="material-icons">shopping_cart</span>
+                            </a> -->
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/barri.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Місто Боуган: Роман
+              </h3>
+              <h3 class="book-author">
+                Кевін Баррі
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/dukai_01.jpg" alt="">
+              <span class="stick">Акція</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Крига: Роман. Частини&nbsp;ІII–ІV
+                Крига: Роман. Частини&nbsp;ІII–ІV
+              </h3>
+              <h3 class="book-author">
+                Яцек Дукай
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/keno.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Ремон Кено
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/lesia.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="popular">
+    <div id="sw-03" class="swiper-container slider">
+      <h2 class="title center abr"><a href="">Топ продажу</a></h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/konrad.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+            <!-- <span class="price">369&nbsp;грн</span>
+                            <a href="" class="to-buy">
+                                <span class="material-icons">shopping_cart</span>
+                            </a> -->
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/plazne.jpg" alt="">
+              <span class="stick">Акція</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/tolkin_04.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/sekulum.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/mannerheim_01.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section>
+    <div id="sw-04" class="swiper-container slider">
+      <h2 class="title center abr"><a href="">Передзамовлення</a></h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/vinetu.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/dukai_01.jpg" alt="">
+              <span class="stick">Акція</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/tolkin_02.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/keno.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/covers/konrad.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                З жінками по-доброму не&nbsp;можна. Ірландський роман Саллі Мари
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section>
+    <div id="kits" class="swiper-container slider">
+      <h2 class="title center abr"><a href="">Комплекти</a></h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/kits/kit_01.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Мемуари. Томи&nbsp;1-2 (дві&nbsp;КНИГИ)
+              </h3>
+              <h3 class="book-author">
+                Карл Ґустав Маннергейм
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/kits/kit_02.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Крига: Роман. Частини&nbsp;I–ІV (дві&nbsp;КНИГИ)
+              </h3>
+              <h3 class="book-author">
+                Яцек Дукай
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/kits/kit_03.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Володар Перснів. Частини&nbsp;1-3 (три&nbsp;КНИГИ)
+              </h3>
+              <h3 class="book-author">
+                Джон Рональд Руел Толкін
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="book-cover img-box">
+            <a href="">
+              <img src="/static/source/img/kits/kit_04.jpg" alt="">
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Божественна Комедія: Пекло, Чистилище, Рай (три&nbsp;КНИГИ)
+              </h3>
+              <h3 class="book-author">
+                Данте Аліг'єрі
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="blog">
+    <div id="sw-05" class="swiper-container blog">
+      <h2 class="title center abr"><a href="">Блог</a></h2>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide item">
+          <div class="blog-item img-box">
+            <a href="">
+              <img src="/static/source/img/blog/blog_img_01.jpg" alt="">
+              <span class="category">Анонс</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Огляд мемуарів Карла Маннергейма. Короткий анонс статті блогу або події
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="blog-item img-box">
+            <a href="">
+              <img src="/static/source/img/blog/blog_img_02.jpg" alt="">
+              <span class="category">Рецензія</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Огляд мемуарів Карла Маннергейма. Короткий анонс статті блогу або події
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="blog-item img-box">
+            <a href="">
+              <img src="/static/source/img/blog/blog_img_03.jpg" alt="">
+              <span class="category">Подкаст</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Огляд мемуарів Карла Маннергейма. Короткий анонс статті блогу або події
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="blog-item img-box">
+            <a href="">
+              <img src="/static/source/img/blog/blog_img_04.jpg" alt="">
+              <span class="category">Подія</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Огляд мемуарів Карла Маннергейма. Короткий анонс статті блогу або події
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide item">
+          <div class="blog-item img-box">
+            <a href="">
+              <img src="/static/source/img/blog/blog_img_05.jpg" alt="">
+              <span class="category">Подія</span>
+            </a>
+            <div class="txt-box">
+              <h3 class="book-title">
+                Огляд мемуарів Карла Маннергейма. Короткий анонс статті блогу або події
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h3 class="center abr gray">Про видавництво «Астролябія»</h3>
+      <p class="gray">
+        Видавництво «Астролябія» є українським видавництвом, що було засноване 2000&nbsp;року у&nbsp;Львові
+        і&nbsp;видає, здебільшого українською мовою, художню літературу, а&nbsp;також книги з&nbsp;філософії,
+        психології, історії, археології, права, політичних наук, економіки та бізнесу, мілітарну літературу. Серед
+        авторів видавництва є&nbsp;Арістотель, Й.&nbsp;Батор, Ф.&nbsp;Ґватарі, Данте, Г.&nbsp;фон&nbsp;Дах,
+        Ж.&nbsp;Дельоз, П.&nbsp;Кальдерон де&nbsp;ла&nbsp;Барка, К.&nbsp;Ф.&nbsp;Ґ.&nbsp;фон&nbsp;Кляузевіц,
+        Дж.&nbsp;Конрад, Л.&nbsp;Крушельницька, Ф.&nbsp;Лопе&nbsp;де&nbsp;Веґа і&nbsp;Карпіо, К.&nbsp;Ф.&nbsp;Май,
+        К.&nbsp;Ґ.&nbsp;Е.&nbsp;Маннергейм, Ф.&nbsp;Ніцше, Дж.&nbsp;Р.&nbsp;Р.&nbsp;Толкін, М.&nbsp;де&nbsp;Унамуно,
+        К.&nbsp;Чапек, К.&nbsp;Ґ.&nbsp;Юнґ, Ц.&nbsp;Ямамото та інші. Одним із наших важливих проектів є&nbsp;також
+        періодичне видання&nbsp;— Львівський мілітарний альманах «Цитаделя».
+      </p>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="c25">
+          <h3>Видавництво Астролябія</h3>
+          <ul>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Проекти</a></li>
+            <li><a href="#">Цитаделя</a></li>
+            <li><a href="#">Архів видань</a></li>
+          </ul>
+        </div>
+        <div class="c25 order3">
+          <h3>Правила та умови</h3>
+          <ul>
+            <li><a href="#">Доставка і оплата</a></li>
+            <li><a href="#">Повернення товару</a></li>
+            <li><a href="#">Умови Клубу</a></li>
+            <li><a href="#">Публічна оферта</a></li>
+          </ul>
+        </div>
+        <div class="c25 order4">
+          <h3>Доставляємо</h3>
+          <a class="poshta img-box" href="">
+            <img src="/static/source/img/img/ukrposhta.svg" alt="">
+          </a>
+          <a class="poshta img-box" href="">
+            <img src="/static/source/img/img/nova_poshta.svg" alt="">
+          </a>
+        </div>
+        <div class="c25 order2">
+          <h3>Залишайтесь на зв&#8217;язку</h3>
+          <div class="social-icons">
+            <a href="">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="">
+              <!-- <i class="fab fa-instagram-square"></i> -->
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-pinterest"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+          </div>
+          <div class="icon-txt"><i class="fas fa-envelope"></i><span>&emsp;а/с 1926 Львів 79008 Україна</span></div>
+          <div class="icon-txt"><span
+              class="material-icons">alternate_email</span><span>&emsp;info@astrolabium.com.ua</span></div>
+          <div class="icon-txt"><i class="fas fa-mobile-alt"></i><span>&emsp;+38 (050) 431 54 64</span></div>
+          <div class="icon-txt"><i class="fas fa-phone-alt"></i><span>&emsp;+38 (032) 243-56-72</span></div>
+          <div class="icon-txt"><span class="material-icons">print</span><span>&emsp;+38 (032) 276-23-00</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p class="center">
+        Усі права застережені ©&nbsp;Видавництво&nbsp;«Астролябія»,&nbsp;2021
+      </p>
+    </div>
+  </footer>
+  <script src="/static/source/lib/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/source/pages/index/index.js"></script>
+</body>
+
+</html>
