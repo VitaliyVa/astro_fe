@@ -1,0 +1,476 @@
+#similar {
+    margin-bottom: 2em;
+}
+
+#book {
+    padding-top: 50px;
+}
+
+section.about-book {
+    padding-top: 30px;
+}
+
+#book .row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+#book .book-title {
+    font-size: 1.65rem;
+    font-weight: 400;
+}
+
+#book .book-author {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#book {
+    .editor {
+        a {
+            color: #888;
+            display: block;
+            font-size: .9rem;
+            font-weight: 400;
+            /* font-style: italic; */
+        }
+    }
+}
+
+#book .editor a:hover {
+    color: #900;
+}
+
+#book .editor span {
+    font-weight: 600;
+}
+
+#book .book-author a {
+    color: #000;
+}
+
+#book .book-author a:hover {
+    color: #900;
+}
+
+#book .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#book .col:not(:first-child) {
+    margin-left: auto;
+}
+
+#book .img-box img {
+    display: block;
+    width: 100%;
+}
+
+#book .cover {
+    width: 35%;
+}
+
+#book .cover .img-box {
+    max-width: 370px;
+}
+
+.cover .img-box {
+    /* box-shadow: 3px 3px 7px 0px rgb(0 0 0 / 20%);
+    background-color: #fefefe; */
+    cursor: pointer;
+    position:relative;
+}
+
+.cover .img-box img {
+    /* transform-origin: 0% 50% 0px;
+    transition: transform 0.5s cubic-bezier(0.0, 0.0, 0.2, 1.0);
+    transform: perspective(800px) rotateY(0deg) scaleX(1); */
+    position:relative;
+}
+
+.cover .img-box:hover img {
+    /* transform: perspective(1000px) scaleX(0.88) rotateY(-15deg); */
+    box-shadow: 15px 0px 12px -12px rgba(0, 0, 0, .4);
+}
+
+.cover .img-box::after {
+    background-color:#ddd;
+    content: "Переглянути фрагмент";
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -35px;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    opacity: 1;
+    padding: 10px 0;
+    transition: color 0.5s cubic-bezier(0.0, 0.0, 0.2, 1.0);
+    text-transform: uppercase;
+}
+
+.cover .img-box:hover::after {
+    color: #900;
+}
+
+#book .book-dscr {
+    width: 60%;
+    max-width: 740px;
+}
+
+#book .book-dscr .dscr,
+#book .book-dscr .dscr p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 530px;
+}
+
+.book-menu {
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    font-size: .85em;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 1em 0 2em;
+    max-width: 530px;
+}
+
+.book-menu li {
+    margin-right: 1.5em;
+    /* margin-bottom: 1.75em; */
+}
+
+.book-menu li:last-child {
+    margin-right: 0;
+}
+
+.book-menu a {
+    display: block;
+    padding: 1.35em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.book-menu a:after {
+    content: "";
+    display: block;
+    background-color: #900;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 3px;
+    transform: translateY(110%);
+    transition: transform .3s ease;
+}
+
+.book-menu a:hover:after,
+.book-menu a.active:after {
+    transform: none;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    border-radius: 3px;
+    background-color: #900;
+    color: #fff;
+    max-width: 530px;
+    padding: 0;
+    transition: all .2s ease;
+}
+
+.buy.book_order {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.buy:hover {
+    background-color: #b11;
+}
+
+#book {
+    .old-price {
+        color: #fff;
+        font-size: .65em;
+        font-weight: 600;
+    }
+    .new-price {
+        color: #fff;
+        font-size: 1.35rem;
+        font-weight: 600;
+    }
+}
+
+.buy .price {
+    border-right: 1px solid #c77;
+    font-size: 1.35rem;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.buy.order .price {
+    border-right: 1px solid #7c7;
+}
+
+.price .old-price {
+    font-size: .65em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.buy .buy-txt {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 7px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy .buy-txt.left {
+    margin-left: 0;
+}
+
+.curr {
+    font-size: .75em;
+    margin-left: .1em;
+}
+
+.buy > .borderleft {
+    border-left: 1px solid #c77;
+}
+
+.buy .material-icons {
+    font-size: 1.75em;
+    color:#fff;
+    padding: 12px 20px;
+    opacity: 1;
+}
+
+.accordeon .buy .material-icons {
+    font-size: 2em;
+}
+
+.accordeon .material-icons.launch {
+    font-size: .85em;
+    color: #777;
+    opacity: 1;
+}
+
+.buy:hover .material-icons {
+    color:#fff;
+}
+
+.accordeon {
+    max-width: 530px;
+    overflow: hidden;
+}
+
+.accordeon-title {
+    margin-bottom: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordeon .accordeon-body {
+    list-style: none;
+    max-height: 0;
+    /* transform: translateY(-50%); */
+    /* visibility: hidden; */
+    overflow: hidden;
+    margin-bottom: 1.5em;
+    /* transition: transform .5s ease; */
+    transition: max-height .75s ease-out;
+    position: relative;
+}
+
+.accordeon-body .type {
+    font-size: .85em;
+    color:#777;
+}
+
+.accordeon.open .accordeon-body {
+    max-height: 500px;
+    /* visibility: visible; */
+    transform: none;
+    transition: max-height 1s ease-in;
+}
+
+.accordeon .material-icons {
+    transform: none;
+    transition: transform .5s ease;
+}
+
+.accordeon.open .material-icons {
+    transform: rotate(180deg);
+}
+
+.accordeon .accordeon-body li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ddd;
+    border-bottom: 1px solid #fff;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.accordeon .accordeon-body li a .price {
+    margin-left:auto;
+}
+
+.accordeon .accordeon-body a:hover {
+    background-color: #e7e7e7;
+    color: #c11;
+}
+
+.reliz {
+    max-width: 530px;
+    background-color: #ddd;
+    padding: 10px;
+    color:#777;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.details {
+    font-size: .85em;
+    margin-top: 50px;
+}
+
+.details strong {
+    font-weight: 700;
+}
+
+.book-dscr .dscr {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1.5em;
+}
+
+details {
+    max-height:0;
+    overflow:hidden;
+    transition: height .5s ease-out;
+}
+
+details[open] {
+    max-height:1000px;
+    transition: max-height 1s ease-in;
+}
+
+details summary {
+    cursor: pointer;
+    color: #fff;
+    font-size: .85em;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+details summary:hover {
+    color: #fff;
+}
+
+summary { list-style: none }
+summary::-webkit-details-marker { display: none; }
+
+summary::after {
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    content: "\e313";
+    font-family: 'Material Icons';
+    font-size: 32px;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    margin-bottom: -18px;
+    margin-left: -18px;
+    padding-top: 9px;
+    text-align: center;
+    line-height: .6;
+    transition: transform .5s ease;
+}
+
+summary:hover::after {
+    background-color: #900;
+}
+
+.about-author a {
+    color: #000;
+}
+
+.about-author a:hover {
+    color: #900;
+}
+
+.about-author a.more {
+    color: #aaa;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.about-author a.more:hover {
+    color: #900;
+    text-decoration: none;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width:992px) {
+
+    #book {
+        margin-top:70px;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    #book .row {
+        flex-wrap: wrap;
+    }
+
+    #book .col {
+        margin-left: 0;
+    }
+
+    #book .cover {
+        width: 100%;
+        display: flex;
+        margin-bottom: 3em;
+    }
+
+    #book .cover .img-box {
+        max-width: 45%;
+    }
+
+    #book .buy.book_order .buy-txt {
+        font-size: .9rem;
+        letter-spacing: .02em;
+    }
+
+    .details {
+        font-size: .75em;
+        margin-left:20px;
+        margin-top: 0;
+    }
+    
+    #book .book-dscr {
+        width: 100%;
+    }
+}

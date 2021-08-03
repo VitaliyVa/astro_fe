@@ -15,10 +15,10 @@ const swiper = new Swiper('#sw-01', {
     prevEl: '.swiper-button-prev',
   },
 
-// And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
+  // And if we need scrollbar
+  //   scrollbar: {
+  //     el: '.swiper-scrollbar',
+  //   },
 });
 
 const swiper_new = new Swiper('.slider', {
@@ -38,11 +38,11 @@ const swiper_new = new Swiper('.slider', {
     prevEl: '.swiper-button-prev',
   },
 
-// And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-breakpoints: {
+  // And if we need scrollbar
+  //   scrollbar: {
+  //     el: '.swiper-scrollbar',
+  //   },
+  breakpoints: {
     // when window width is >= 320px
     300: {
       pagination: false,
@@ -94,11 +94,11 @@ const swiper_blog = new Swiper('.blog', {
     prevEl: '.swiper-button-prev',
   },
 
-// And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-breakpoints: {
+  // And if we need scrollbar
+  //   scrollbar: {
+  //     el: '.swiper-scrollbar',
+  //   },
+  breakpoints: {
     // when window width is >= 320px
     300: {
       pagination: false,

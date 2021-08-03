@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./book.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -564,31 +564,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../components/pages/index/index.js":
-/*!******************************************!*\
-  !*** ../components/pages/index/index.js ***!
-  \******************************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _module_contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../module/contact */ "../components/module/contact/index.js");
-/* harmony import */ var _module_books__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/books */ "../components/module/books/index.js");
-/* harmony import */ var _module_swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../module/swiper */ "../components/module/swiper/index.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "../components/pages/index/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-
-/***/ }),
-
-/***/ "../components/pages/index/index.scss":
-/*!********************************************!*\
-  !*** ../components/pages/index/index.scss ***!
-  \********************************************/
+/***/ "../components/pages/book/book-events.scss":
+/*!*************************************************!*\
+  !*** ../components/pages/book/book-events.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -598,10 +577,63 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "../components/pages/book/book.scss":
+/*!******************************************!*\
+  !*** ../components/pages/book/book.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
+/***/ "../components/pages/book/index.js":
+/*!*****************************************!*\
+  !*** ../components/pages/book/index.js ***!
+  \*****************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _module_contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../module/contact */ "../components/module/contact/index.js");
+/* harmony import */ var _module_books__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/books */ "../components/module/books/index.js");
+/* harmony import */ var _module_swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../module/swiper */ "../components/module/swiper/index.js");
+/* harmony import */ var _book_events_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./book-events.scss */ "../components/pages/book/book-events.scss");
+/* harmony import */ var _book_events_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_book_events_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _book_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./book.scss */ "../components/pages/book/book.scss");
+/* harmony import */ var _book_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_book_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.scss */ "../components/pages/book/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "../components/pages/book/index.scss":
+/*!*******************************************!*\
+  !*** ../components/pages/book/index.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
+/***/ "./book.js":
+/*!*****************!*\
+  !*** ./book.js ***!
+  \*****************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -619,7 +651,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_module_swiper_init__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_module_swiper_init__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _components_module_cover_normilize__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/module/cover-normilize */ "../components/module/cover-normilize.js");
 /* harmony import */ var _components_module_cover_normilize__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_components_module_cover_normilize__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_pages_index_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/pages/index/index */ "../components/pages/index/index.js");
+/* harmony import */ var _components_pages_book_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/pages/book/index */ "../components/pages/book/index.js");
 // script interface
 
 

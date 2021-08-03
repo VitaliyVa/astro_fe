@@ -185,12 +185,16 @@ section .swiper-container .title a:hover {
 
 .category {
     display: block;
-    color:#900;
+    color:#000;
     font-size: 1em;
-    font-weight: 800;
+    font-weight: 700;
     text-transform:uppercase;
     letter-spacing: .05em;
     margin-top: 1.25em;
+}
+
+:hover > .category {
+    color:#900;
 }
 
 .book-title {
